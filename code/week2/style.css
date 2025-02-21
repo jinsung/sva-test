@@ -1,7 +1,32 @@
 html, body {
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
 }
+
+.my-text {
+    color: red;
+}
+
+#my-button {
+    background-color: #f00;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.my-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 canvas {
     display: block;
 }
